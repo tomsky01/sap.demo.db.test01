@@ -1,0 +1,16 @@
+{
+  "name": "sap.demo.db.test01",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "ui5 serve -o test/mockServer.html"
+  },
+  "devDependencies": {
+    "ui5-middleware-simpleproxy": "^3.3.1"
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

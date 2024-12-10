@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>SAPUI5 UI5 Walkthrough - Mockserver Test Page</title>
+	<script
+		id="sap-ui-bootstrap"
+		src="./resources/sap-ui-core.js"
+		data-sap-ui-theme="sap_horizon"
+		data-sap-ui-compat-version="edge"
+		data-sap-ui-async="true"
+		data-sap-ui-resource-roots='{"sap.demo.db.test01": "./"}'
+		data-sap-ui-on-init="module:sap/demo/db/test01/test/initMockServer"
+		>
+	</script>
+</head>
+<body class="sapUiBody" id="content">
+	<div data-sap-ui-component data-name="sap.demo.db.test01"
+     data-id="container" 
+     data-settings='{"id" : "sap.demo.db.test01"}'></div>
+
+</body>
+</html>
